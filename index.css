@@ -51,20 +51,20 @@
   background-color: var(--color-black);
   border: 1px solid #fffefe;
 }
-.email-input,
-.email-input-wrapper {
+.desktop-2-inner,
+.email-parent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.email-input {
+.email-parent {
   align-self: stretch;
   flex: 1;
   flex-direction: column;
   gap: 38px;
 }
-.email-input-wrapper {
+.desktop-2-inner {
   width: 995px;
   height: 251px;
   flex-direction: row;
@@ -149,7 +149,7 @@
   }
 }
 @media screen and (max-width: 675px) {
-  .email-input {
+  .email-parent {
     gap: var(--gap-lgi);
   }
 }

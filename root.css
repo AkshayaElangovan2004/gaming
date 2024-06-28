@@ -1,184 +1,100 @@
-.contact-us1 {
-  width: 663px;
+.games,
+.jumanji-1 {
   position: relative;
+  max-width: 100%;
+}
+.jumanji-1 {
+  width: 550px;
+  height: 411px;
+  display: none;
+  z-index: 0;
+}
+.games {
+  width: 437px;
   font-weight: 600;
-  background: linear-gradient(-76.97deg, #0b467d, #147fe3);
+  background: linear-gradient(-73.3deg, #0b467d, #147fe3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
-  flex-shrink: 0;
-  max-width: 100%;
-  z-index: 1;
-}
-.sub-subheader {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 0 var(--padding-9xl);
-  box-sizing: border-box;
-  max-width: 100%;
-  text-align: justify;
-  font-size: var(--font-size-26xl);
-}
-.address1 {
-  margin: 0;
   white-space: pre-wrap;
-}
-.blank-line1,
-.blank-line2,
-.p2 {
-  margin: 0;
-}
-.address {
-  margin-left: -559px;
-  width: 1393px;
-  height: 73px;
-  position: relative;
-  font-weight: 600;
-  background: linear-gradient(-87.74deg, #0b467d, #147fe3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   display: inline-block;
-  flex-shrink: 0;
-  max-width: 132%;
-  z-index: 1;
+  z-index: 2;
 }
-.e-mail,
-.industrial-design,
-.infoidacreationscom {
-  margin: 0;
-}
-.get-in-touch1,
-.industrial-design-container,
-.locate-us-on {
-  position: relative;
-  font-weight: 600;
-  display: inline-block;
-  max-width: 100%;
-  z-index: 1;
-}
-.industrial-design-container {
-  width: 892px;
-}
-.get-in-touch1,
-.locate-us-on {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  flex-shrink: 0;
-}
-.locate-us-on {
-  width: 469px;
-  background: linear-gradient(-54.77deg, #0b467d, #147fe3);
-}
-.get-in-touch1 {
-  width: 342px;
-  background: linear-gradient(88.29deg, #0b467d 8.49%, #147fe3);
-}
-.location,
-.map,
-.subheader {
-  display: flex;
-  align-items: flex-start;
-}
-.map {
-  align-self: stretch;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 100%;
-  gap: var(--gap-xl);
-}
-.location,
-.subheader {
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.location {
-  align-self: stretch;
-  gap: 219px;
-  max-width: 100%;
-}
-.subheader {
-  width: 1250px;
-  padding: 0 var(--padding-xl) 0 167px;
-  box-sizing: border-box;
-  gap: var(--gap-14xl);
-}
-.header,
-.image-30-icon,
-.subheader {
-  flex-shrink: 0;
-  max-width: 100%;
-}
-.header {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.image-30-icon {
-  width: 1082px;
-  height: 823px;
-  position: relative;
-  object-fit: cover;
-}
-.placeholder-icon {
+.icon {
   position: absolute;
-  top: -23.7px;
-  left: -8.6px;
-  width: 1498.7px;
-  height: 1614.9px;
+  top: -46.8px;
+  left: -19.3px;
+  width: 1578.4px;
+  height: 2972px;
   object-fit: contain;
-}
-.image-29-icon,
-.screenshot-2024-06-17-080555-1 {
-  position: absolute;
-  top: 970px;
-  left: 167px;
-  width: 413px;
-  height: 277px;
-  object-fit: cover;
   z-index: 1;
 }
-.image-29-icon {
-  top: 938px;
-  left: 831px;
-  width: 55px;
-  height: 55px;
-  object-fit: contain;
-}
-.image-29-icon1,
-.image-29-icon2,
-.image-29-icon3,
-.image-29-icon4 {
+.assassin-1-icon,
+.banner-god-of-war-1-icon,
+.banner-items-icon,
+.banner-uncharted-3-linganno-icon {
   position: absolute;
-  top: 938px;
-  left: 973px;
-  width: 57px;
-  height: 56px;
+  top: 393px;
+  left: 163px;
+  border-radius: var(--br-21xl);
+  width: 563px;
+  height: 412px;
   object-fit: cover;
-  z-index: 1;
+  z-index: 2;
 }
-.image-29-icon2,
-.image-29-icon3,
-.image-29-icon4 {
-  left: 1106px;
+.assassin-1-icon,
+.banner-items-icon,
+.banner-uncharted-3-linganno-icon {
+  top: 2105px;
+  width: 550px;
+  height: 419px;
 }
-.image-29-icon3,
-.image-29-icon4 {
-  top: 1037px;
-  left: 899px;
-  width: 55px;
+.assassin-1-icon,
+.banner-items-icon {
+  top: 985px;
+  width: 537px;
+  height: 427px;
 }
-.image-29-icon4 {
-  top: 1036px;
-  left: 1049px;
-  width: 57px;
-  height: 57px;
+.banner-items-icon {
+  top: 1558px;
+  left: 150px;
+  width: 563px;
+  height: 401px;
 }
-.gallery {
+.asphalt8-1-icon,
+.banner-items-icon1,
+.banner-marvels-spider-man-mil-icon,
+.fortnit-1-icon {
+  position: absolute;
+  top: 393px;
+  left: 834px;
+  border-radius: var(--br-21xl);
+  width: 549px;
+  height: 438px;
+  object-fit: cover;
+  z-index: 2;
+}
+.asphalt8-1-icon,
+.banner-items-icon1,
+.banner-marvels-spider-man-mil-icon {
+  top: 1003px;
+  left: 820px;
+  width: 563px;
+  height: 419px;
+}
+.banner-items-icon1,
+.banner-marvels-spider-man-mil-icon {
+  top: 1576px;
+  left: 834px;
+  width: 550px;
+  height: 401px;
+}
+.banner-marvels-spider-man-mil-icon {
+  top: 2109px;
+  left: 826px;
+  width: 563px;
+  height: 412px;
+}
+.banner-carousel {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -190,77 +106,44 @@
 }
 .root {
   width: 100%;
-  height: 1456px;
   position: relative;
-  background-color: #0c0a0a;
+  background-color: var(--color-black);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: flex-start;
-  padding: 113px 0 566px;
+  padding: 164px var(--padding-xl) 2587px 552px;
   box-sizing: border-box;
-  gap: 1060px;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  font-size: var(--font-size-21xl);
-  color: var(--color-white);
+  font-size: var(--font-size-41xl);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1200px) {
-  .subheader {
-    padding-left: 83px;
+@media screen and (max-width: 1000px) {
+  .root {
+    padding-left: 276px;
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1050px) {
-  .contact-us1 {
-    font-size: var(--font-size-17xl);
-  }
-  .address,
-  .get-in-touch1,
-  .industrial-design-container,
-  .locate-us-on {
-    font-size: var(--font-size-13xl);
-  }
-  .map {
-    flex-wrap: wrap;
-  }
-  .location {
-    gap: 109px;
-  }
-  .root {
-    height: auto;
+@media screen and (max-width: 975px) {
+  .games {
+    font-size: var(--font-size-29xl);
   }
 }
-@media screen and (max-width: 750px) {
-  .location {
-    gap: 55px;
-  }
-  .subheader {
-    gap: var(--gap-base);
-    padding-left: 41px;
-    box-sizing: border-box;
-  }
+@media screen and (max-width: 725px) {
   .root {
-    gap: 530px;
+    padding-left: 138px;
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .contact-us1 {
-    font-size: var(--font-size-8xl);
-  }
-  .address,
-  .get-in-touch1,
-  .industrial-design-container,
-  .locate-us-on {
-    font-size: var(--font-size-5xl);
-  }
-  .location {
-    gap: var(--gap-8xl);
+  .games {
+    font-size: var(--font-size-17xl);
   }
   .root {
-    gap: 265px;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
   }
 }

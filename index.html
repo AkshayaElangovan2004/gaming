@@ -10,10 +10,6 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JejuGothic:wght@400&display=swap"
-    />
   </head>
   <body>
     <div class="desktop-2">
@@ -36,18 +32,27 @@
           </p>
         </div>
       </section>
-      <section class="email-input-wrapper">
-        <div class="email-input">
+      <section class="desktop-2-inner">
+        <div class="email-parent">
           <div class="email">Email</div>
           <div class="email-border"></div>
         </div>
       </section>
       <div class="component-16-wrapper">
-        <button class="component-16">
+        <button class="component-16" id="component16">
           <div class="submit-background"></div>
           <div class="submit">SUBMIT</div>
         </button>
       </div>
     </div>
+
+    <script>
+      var component16 = document.getElementById("component16");
+      if (component16) {
+        component16.addEventListener("click", function (e) {
+          window.location.href = "./desktop-1.html";
+        });
+      }
+    </script>
   </body>
 </html>
